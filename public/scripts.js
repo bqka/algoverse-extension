@@ -1,5 +1,7 @@
 // src/content/script.js
 
+console.log("scripts.js loaded")
+
 function toggleDyslexiaFont() {
   const el = document.body;
   const currentFont = el.style.fontFamily;
